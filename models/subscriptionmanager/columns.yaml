@@ -1,0 +1,66 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    company:
+        label: Bedrijfsnaam
+        type: text
+        searchable: true
+        sortable: true
+    firstname:
+        label: Voornaam
+        type: text
+        invisible: true
+    surname:
+        label: achternaam
+        type: text
+        invisible: true
+    iban:
+        label: IBAN
+        type: text
+        invisible: true
+    autocollect:
+        label: 'Automatische Incasso'
+        type: text
+        invisible: true
+    phone:
+        label: Telefoonnummer
+        type: text
+        searchable: true
+        sortable: true
+    mobile:
+        label: Mobielnummer
+        type: text
+        invisible: true
+    email:
+        label: 'E-Mail adres'
+        type: text
+        searchable: true
+        sortable: true
+    product:
+        label: Product
+        type: text
+        searchable: true
+        sortable: true
+    subscription_start:
+        label: 'Abonnement start'
+        type: text
+    subscription_end:
+        label: 'Abonnement eind'
+        type: text
+    subscription_paid:
+        label: 'Abonnement betaald'
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
+    deleted_at:
+        label: deleted_at
+        type: datetime
+        invisible: true

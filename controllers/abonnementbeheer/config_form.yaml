@@ -1,0 +1,11 @@
+name: AbonnementBeheer
+modelClass: OpenMindedIT\Omitmanager\Models\SubscriptionManager
+form: $/openmindedit/omitmanager/models/subscriptionmanager/fields.yaml
+defaultRedirect: openmindedit/omitmanager/abonnementbeheer
+create:
+    redirect: 'openmindedit/omitmanager/abonnementbeheer/update/:id'
+    redirectClose: openmindedit/omitmanager/abonnementbeheer
+update:
+    redirect: openmindedit/omitmanager/abonnementbeheer
+    redirectClose: openmindedit/omitmanager/abonnementbeheer
+preview: {  }

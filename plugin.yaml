@@ -1,0 +1,24 @@
+plugin:
+    name: 'openmindedit.omitmanager::lang.plugin.name'
+    description: 'openmindedit.omitmanager::lang.plugin.description'
+    author: 'Open Minded IT'
+    icon: oc-icon-briefcase
+    homepage: 'https://www.openmindedit.nl/'
+permissions:
+    OmitManager:
+        tab: 'openmindedit.omitmanager::lang.plugin.name'
+        label: OmitManager
+navigation:
+    main-menu-item:
+        label: 'Open Minded IT'
+        url: /
+        icon: icon-briefcase
+        permissions:
+            - OmitManager
+        sideMenu:
+            side-menu-item:
+                label: 'Abonnement Beheer'
+                url: openmindedit/omitmanager/abonnementbeheer
+                icon: icon-euro
+                permissions:
+                    - OmitManager
