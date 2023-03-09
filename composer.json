@@ -1,0 +1,8 @@
+{
+    "name": "NielsvandenDries/omitmanager-plugin",
+    "type": "october-plugin",
+    "description": "Business Manager Open Minded IT",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
