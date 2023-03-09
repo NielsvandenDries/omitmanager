@@ -1,0 +1,23 @@
+fields:
+    subject:
+        label: Subject
+        span: full
+        type: text
+    from:
+        label: From
+        span: auto
+        type: text
+    ip_address:
+        label: 'Ip address'
+        span: auto
+        type: text
+    created_at:
+        label: 'Created at'
+        span: auto
+        type: datepicker
+    content_html:
+        label: Bericht
+        span: full
+        size: giant
+        readOnly: 1
+        type: richeditor

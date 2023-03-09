@@ -1,0 +1,18 @@
+columns:
+    content_html:
+        label: Bericht
+        type: text
+        invisible: true
+        sortable: false
+    subject:
+        label: Onderwerp
+        type: text
+        sortable: true
+    ip_address:
+        label: 'IP Adres'
+        type: text
+        searchable: true
+    created_at:
+        label: 'Gemaakt op'
+        type: datetime
+        sortable: true

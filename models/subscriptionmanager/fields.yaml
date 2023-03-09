@@ -3,64 +3,126 @@ fields:
         label: Bedrijfsnaam
         span: full
         type: text
-    firstname:
-        label: Voornaam
-        span: auto
-        required: 1
-        type: text
-    surname:
-        label: Achternaam
-        span: auto
-        required: 1
-        type: text
-    phone:
-        label: Telefoonnummer
-        span: auto
-        required: 1
-        type: text
-    mobile:
-        label: 'Mobiel nummer'
-        span: auto
-        type: text
-    email:
-        label: 'E-Mail adres'
-        span: auto
-        required: 1
-        type: text
-    iban:
-        label: IBAN
-        span: auto
-        required: 1
-        type: text
-    autocollect:
-        label: 'Automatische incasso'
-        span: auto
-        type: switch
-    section1:
-        label: 'Subscription Details'
-        span: full
-        type: section
-    product:
-        label: Product
-        options:
-            OmitCentral: OmitCentral
-        showSearch: true
-        span: left
-        required: 1
-        type: dropdown
-    subscription_start:
-        label: 'Abonnement Start'
-        mode: date
-        span: left
-        required: 1
-        type: datepicker
-    subscription_end:
-        label: 'Abonnement Eind'
-        mode: date
-        span: left
-        required: 1
-        type: datepicker
-    subscription_paid:
-        label: 'Abonnement Betaald'
-        span: left
-        type: switch
+tabs:
+    fields:
+        firstname:
+            label: Voornaam
+            span: auto
+            required: 1
+            type: text
+            tab: 'Klant Details'
+        surname:
+            label: Achternaam
+            span: auto
+            required: 1
+            type: text
+            tab: 'Klant Details'
+        phone:
+            label: Telefoonnummer
+            span: auto
+            required: 1
+            type: text
+            tab: 'Klant Details'
+        mobile:
+            label: 'Mobiel nummer'
+            span: auto
+            type: text
+            tab: 'Klant Details'
+        email:
+            label: 'E-Mail adres'
+            span: auto
+            required: 1
+            type: text
+            tab: 'Klant Details'
+        iban:
+            label: IBAN
+            span: auto
+            required: 1
+            type: text
+            tab: 'Klant Details'
+        autocollect:
+            label: 'Automatische incasso'
+            span: auto
+            type: switch
+            tab: 'Klant Details'
+        subscription_start:
+            label: 'Abonnement Start'
+            mode: date
+            span: auto
+            required: 1
+            type: datepicker
+            tab: 'Abonnement Details'
+        licence:
+            label: Licence
+            span: auto
+            required: 1
+            type: text
+            tab: 'Abonnement Details'
+        vps:
+            label: VPS
+            options:
+                'BladeVPS X4': 'BladeVPS X4'
+            showSearch: true
+            span: auto
+            required: 1
+            type: dropdown
+            tab: 'Abonnement Details'
+        product:
+            label: Product
+            options:
+                OmitCentral: OmitCentral
+            showSearch: true
+            span: auto
+            required: 1
+            type: dropdown
+            tab: 'Abonnement Details'
+        subscription_paid:
+            label: 'Abonnement Betaald'
+            span: auto
+            type: switch
+            tab: 'Abonnement Details'
+        support:
+            label: 'Support contract'
+            span: auto
+            type: checkbox
+            tab: 'Abonnement Details'
+        Einddata:
+            label: Section
+            span: full
+            type: section
+            tab: 'Abonnement Details'
+        licence_end:
+            label: 'Einddatum Licence'
+            mode: date
+            span: auto
+            type: datepicker
+            tab: 'Abonnement Details'
+        vps_end:
+            label: 'Einddatum VPS'
+            mode: date
+            span: auto
+            type: datepicker
+            tab: 'Abonnement Details'
+        support_end:
+            label: 'Einddatum Support'
+            mode: date
+            span: auto
+            type: datepicker
+            tab: 'Abonnement Details'
+        subscription_end:
+            label: 'Abonnement Eind'
+            mode: date
+            span: auto
+            required: 1
+            type: datepicker
+            tab: 'Abonnement Details'
+        domein:
+            label: Domein
+            span: auto
+            type: text
+            tab: 'Technische Details'
+        server:
+            label: 'Server adres'
+            span: auto
+            type: text
+            tab: 'Technische Details'

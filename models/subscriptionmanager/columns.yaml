@@ -22,7 +22,7 @@ columns:
         invisible: true
     autocollect:
         label: 'Automatische Incasso'
-        type: text
+        type: switch
         invisible: true
     phone:
         label: Telefoonnummer
@@ -51,7 +51,7 @@ columns:
         type: text
     subscription_paid:
         label: 'Abonnement betaald'
-        type: text
+        type: switch
     created_at:
         label: created_at
         type: datetime
@@ -63,4 +63,26 @@ columns:
     deleted_at:
         label: deleted_at
         type: datetime
+        invisible: true
+    vps:
+        label: VPS
+        type: text
+        searchable: true
+        sortable: true
+    licence:
+        label: Licence
+        type: text
+        invisible: true
+    support:
+        label: 'Support Contract'
+        type: switch
+        searchable: true
+        sortable: true
+    domein:
+        label: Domein
+        type: text
+        invisible: true
+    server:
+        label: Server
+        type: text
         invisible: true

@@ -1,0 +1,11 @@
+name: Logs
+modelClass: OpenMindedIT\Omitmanager\Models\Logs
+form: $/openmindedit/omitmanager/models/logs/fields.yaml
+defaultRedirect: openmindedit/omitmanager/logs
+create:
+    redirect: 'openmindedit/omitmanager/logs/update/:id'
+    redirectClose: openmindedit/omitmanager/logs
+update:
+    redirect: openmindedit/omitmanager/logs
+    redirectClose: openmindedit/omitmanager/logs
+preview: {  }
