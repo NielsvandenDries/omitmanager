@@ -24,6 +24,3 @@
 1.0.9:
     - 'Updated table openmindedit_omitmanager_subscriptionmanager'
     - builder_table_update_openmindedit_omitmanager_subscriptionmanager_4.php
-1.0.10:
-    - 'Created table openmindedit_omitmanager_formlogs'
-    - builder_table_create_openmindedit_omitmanager_formlogs.php

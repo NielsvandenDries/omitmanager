@@ -22,9 +22,3 @@ navigation:
                 icon: icon-euro
                 permissions:
                     - OmitManager
-            side-menu-item2:
-                label: Logs
-                url: openmindedit/omitmanager/logs
-                icon: icon-book
-                permissions:
-                    - OmitManager
