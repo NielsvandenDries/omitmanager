@@ -6,6 +6,9 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+            '\OpenMindedIT\Omitmanager\Components\Subscription' => 'Subscription'
+        ];
     }
 
     public function registerSettings()

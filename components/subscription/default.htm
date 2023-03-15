@@ -1,0 +1,20 @@
+{% set Subscription = __SELF__.item %}
+{% for item in Subscription %}
+
+<div class="mt-2">
+<p>Company name: {{ item.company }}</p>
+<p>Licence Key: {{ item.licence }}</p>
+<p>Subscription End: {{ item.subscription_end }}</p>
+<p>Contact: {{ item.surname }}, {{ item.firstname }}</p>
+<p>Product: {{ item.product }}</p>
+</div>
+
+{% else %}
+
+<div class="no-data">
+  <div class="alert alert-danger" role="alert">
+    <i><i class="bi bi-exclamation-triangle"></i> Geen abonnement gevonden</i>
+  </div>
+</div>
+
+{% endfor %}
